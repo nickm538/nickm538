@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+nice to see everyone, i love to code
 <!--
 **nickm538/nickm538** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
