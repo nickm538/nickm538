@@ -1,16 +1,13 @@
-## Hi there 👋
-nice to see everyone, i love to code
-<!--
-**nickm538/nickm538** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/nyy.png" width="150" alt="Yankees Logo"/>
+  
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=003087&center=true&vCenter=true&width=435&lines=New+York+Yankees;27+Time+World+Champions)](https://git.io/typing-svg)
 
-Here are some ideas to get you started:
+  ![MLB](https://img.shields.io/badge/MLB-New_York_Yankees-003087?style=for-the-badge&logo=mlb&logoColor=white)
+</div>
 
-- 🔭 I’m currently working on ... work LICH
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+---
+## About Me 👋
+- 🔭 I'm currently working on ... work LICH
 - 💬 Ask me about ... anything
-- 📫 How to reach me: ...
 - 😄 Pronouns: ... he/him
-- ⚡ Fun fact: ...
--->
