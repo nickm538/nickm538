@@ -247,9 +247,9 @@ struct TeamDetailView: View {
     private func formattedRank(_ rank: Int?) -> String {
         guard let rank else { return "—" }
         switch rank % 10 {
-        case 1 where rank != 11: return "\(rank)st"
-        case 2 where rank != 12: return "\(rank)nd"
-        case 3 where rank != 13: return "\(rank)rd"
+        case 1 where rank % 100 != 11: return "\(rank)st"
+        case 2 where rank % 100 != 12: return "\(rank)nd"
+        case 3 where rank % 100 != 13: return "\(rank)rd"
         default: return "\(rank)th"
         }
     }
