@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {
+};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+A0EFB4902CFA2F9300D4A730 /* MLBStandingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB4702CFA2F9300D4A730 /* MLBStandingsApp.swift */; };
+A0EFB4912CFA2F9300D4A730 /* StandingsDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB4712CFA2F9300D4A730 /* StandingsDashboardView.swift */; };
+A0EFB4922CFA2F9300D4A730 /* StandingsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB4722CFA2F9300D4A730 /* StandingsSectionView.swift */; };
+A0EFB4932CFA2F9300D4A730 /* TeamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB4732CFA2F9300D4A730 /* TeamDetailView.swift */; };
+A0EFB4942CFA2F9300D4A730 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB4742CFA2F9300D4A730 /* SearchBar.swift */; };
+A0EFB4952CFA2F9300D4A730 /* MetricCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB4752CFA2F9300D4A730 /* MetricCapsule.swift */; };
+A0EFB4962CFA2F9300D4A730 /* StandingsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB4762CFA2F9300D4A730 /* StandingsHeaderView.swift */; };
+A0EFB4972CFA2F9300D4A730 /* TeamRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB4772CFA2F9300D4A730 /* TeamRowView.swift */; };
+A0EFB4982CFA2F9300D4A730 /* StandingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB4782CFA2F9300D4A730 /* StandingsModels.swift */; };
+A0EFB4992CFA2F9300D4A730 /* TeamBranding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB4792CFA2F9300D4A730 /* TeamBranding.swift */; };
+A0EFB49A2CFA2F9300D4A730 /* StandingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB47A2CFA2F9300D4A730 /* StandingsViewModel.swift */; };
+A0EFB49B2CFA2F9300D4A730 /* StandingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB47B2CFA2F9300D4A730 /* StandingsService.swift */; };
+A0EFB49C2CFA2F9300D4A730 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFB47C2CFA2F9300D4A730 /* Color+Extensions.swift */; };
+A0EFB49D2CFA2F9300D4A730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EFB47D2CFA2F9300D4A730 /* Assets.xcassets */; };
+A0EFB49E2CFA2F9300D4A730 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EFB47F2CFA2F9300D4A730 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+A0EFB46D2CFA2F9300D4A730 /* MLBStandings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBStandings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+A0EFB4702CFA2F9300D4A730 /* MLBStandingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLBStandingsApp.swift; sourceTree = "<group>"; };
+A0EFB4712CFA2F9300D4A730 /* StandingsDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsDashboardView.swift; sourceTree = "<group>"; };
+A0EFB4722CFA2F9300D4A730 /* StandingsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsSectionView.swift; sourceTree = "<group>"; };
+A0EFB4732CFA2F9300D4A730 /* TeamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailView.swift; sourceTree = "<group>"; };
+A0EFB4742CFA2F9300D4A730 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+A0EFB4752CFA2F9300D4A730 /* MetricCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCapsule.swift; sourceTree = "<group>"; };
+A0EFB4762CFA2F9300D4A730 /* StandingsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsHeaderView.swift; sourceTree = "<group>"; };
+A0EFB4772CFA2F9300D4A730 /* TeamRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRowView.swift; sourceTree = "<group>"; };
+A0EFB4782CFA2F9300D4A730 /* StandingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsModels.swift; sourceTree = "<group>"; };
+A0EFB4792CFA2F9300D4A730 /* TeamBranding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBranding.swift; sourceTree = "<group>"; };
+A0EFB47A2CFA2F9300D4A730 /* StandingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsViewModel.swift; sourceTree = "<group>"; };
+A0EFB47B2CFA2F9300D4A730 /* StandingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsService.swift; sourceTree = "<group>"; };
+A0EFB47C2CFA2F9300D4A730 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+A0EFB47D2CFA2F9300D4A730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+A0EFB47E2CFA2F9300D4A730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+A0EFB47F2CFA2F9300D4A730 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+A0EFB4652CFA2F9300D4A730 /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+A0EFB4612CFA2F9300D4A730 = {
+isa = PBXGroup;
+children = (
+A0EFB4802CFA2F9300D4A730 /* MLBStandings */,
+A0EFB4622CFA2F9300D4A730 /* Products */,
+);
+sourceTree = "<group>";
+};
+A0EFB4622CFA2F9300D4A730 /* Products */ = {
+isa = PBXGroup;
+children = (
+A0EFB46D2CFA2F9300D4A730 /* MLBStandings.app */,
+);
+name = Products;
+sourceTree = "<group>";
+};
+A0EFB4802CFA2F9300D4A730 /* MLBStandings */ = {
+isa = PBXGroup;
+children = (
+A0EFB4702CFA2F9300D4A730 /* MLBStandingsApp.swift */,
+A0EFB4812CFA2F9300D4A730 /* Models */,
+A0EFB4822CFA2F9300D4A730 /* ViewModels */,
+A0EFB4832CFA2F9300D4A730 /* Services */,
+A0EFB4842CFA2F9300D4A730 /* Views */,
+A0EFB4862CFA2F9300D4A730 /* Utilities */,
+A0EFB4872CFA2F9300D4A730 /* Resources */,
+A0EFB4882CFA2F9300D4A730 /* Preview Content */,
+);
+path = MLBStandings;
+sourceTree = "<group>";
+};
+A0EFB4812CFA2F9300D4A730 /* Models */ = {
+isa = PBXGroup;
+children = (
+A0EFB4782CFA2F9300D4A730 /* StandingsModels.swift */,
+A0EFB4792CFA2F9300D4A730 /* TeamBranding.swift */,
+);
+path = Models;
+sourceTree = "<group>";
+};
+A0EFB4822CFA2F9300D4A730 /* ViewModels */ = {
+isa = PBXGroup;
+children = (
+A0EFB47A2CFA2F9300D4A730 /* StandingsViewModel.swift */,
+);
+path = ViewModels;
+sourceTree = "<group>";
+};
+A0EFB4832CFA2F9300D4A730 /* Services */ = {
+isa = PBXGroup;
+children = (
+A0EFB47B2CFA2F9300D4A730 /* StandingsService.swift */,
+);
+path = Services;
+sourceTree = "<group>";
+};
+A0EFB4842CFA2F9300D4A730 /* Views */ = {
+isa = PBXGroup;
+children = (
+A0EFB4712CFA2F9300D4A730 /* StandingsDashboardView.swift */,
+A0EFB4722CFA2F9300D4A730 /* StandingsSectionView.swift */,
+A0EFB4732CFA2F9300D4A730 /* TeamDetailView.swift */,
+A0EFB4852CFA2F9300D4A730 /* Components */,
+);
+path = Views;
+sourceTree = "<group>";
+};
+A0EFB4852CFA2F9300D4A730 /* Components */ = {
+isa = PBXGroup;
+children = (
+A0EFB4742CFA2F9300D4A730 /* SearchBar.swift */,
+A0EFB4752CFA2F9300D4A730 /* MetricCapsule.swift */,
+A0EFB4762CFA2F9300D4A730 /* StandingsHeaderView.swift */,
+A0EFB4772CFA2F9300D4A730 /* TeamRowView.swift */,
+);
+path = Components;
+sourceTree = "<group>";
+};
+A0EFB4862CFA2F9300D4A730 /* Utilities */ = {
+isa = PBXGroup;
+children = (
+A0EFB47C2CFA2F9300D4A730 /* Color+Extensions.swift */,
+);
+path = Utilities;
+sourceTree = "<group>";
+};
+A0EFB4872CFA2F9300D4A730 /* Resources */ = {
+isa = PBXGroup;
+children = (
+A0EFB47D2CFA2F9300D4A730 /* Assets.xcassets */,
+A0EFB47E2CFA2F9300D4A730 /* Info.plist */,
+);
+path = Resources;
+sourceTree = "<group>";
+};
+A0EFB4882CFA2F9300D4A730 /* Preview Content */ = {
+isa = PBXGroup;
+children = (
+A0EFB47F2CFA2F9300D4A730 /* Preview Assets.xcassets */,
+);
+path = "Preview Content";
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+A0EFB4632CFA2F9300D4A730 /* MLBStandings */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = A0EFB4682CFA2F9300D4A730 /* Build configuration list for PBXNativeTarget "MLBStandings" */;
+buildPhases = (
+A0EFB4642CFA2F9300D4A730 /* Sources */,
+A0EFB4652CFA2F9300D4A730 /* Frameworks */,
+A0EFB4662CFA2F9300D4A730 /* Resources */,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = MLBStandings;
+productName = MLBStandings;
+productReference = A0EFB46D2CFA2F9300D4A730 /* MLBStandings.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+A0EFB4602CFA2F9300D4A730 /* Project object */ = {
+isa = PBXProject;
+attributes = {
+LastSwiftUpdateCheck = 1500;
+LastUpgradeCheck = 1500;
+TargetAttributes = {
+A0EFB4632CFA2F9300D4A730 = {
+CreatedOnToolsVersion = 15.0;
+};
+};
+};
+buildConfigurationList = A0EFB4672CFA2F9300D4A730 /* Build configuration list for PBXProject "MLBStandings" */;
+compatibilityVersion = "Xcode 14.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+Base,
+);
+mainGroup = A0EFB4612CFA2F9300D4A730;
+productRefGroup = A0EFB4622CFA2F9300D4A730 /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+A0EFB4632CFA2F9300D4A730 /* MLBStandings */,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+A0EFB4662CFA2F9300D4A730 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+A0EFB49D2CFA2F9300D4A730 /* Assets.xcassets in Resources */,
+A0EFB49E2CFA2F9300D4A730 /* Preview Assets.xcassets in Resources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+A0EFB4642CFA2F9300D4A730 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+A0EFB4902CFA2F9300D4A730 /* MLBStandingsApp.swift in Sources */,
+A0EFB4912CFA2F9300D4A730 /* StandingsDashboardView.swift in Sources */,
+A0EFB4922CFA2F9300D4A730 /* StandingsSectionView.swift in Sources */,
+A0EFB4932CFA2F9300D4A730 /* TeamDetailView.swift in Sources */,
+A0EFB4942CFA2F9300D4A730 /* SearchBar.swift in Sources */,
+A0EFB4952CFA2F9300D4A730 /* MetricCapsule.swift in Sources */,
+A0EFB4962CFA2F9300D4A730 /* StandingsHeaderView.swift in Sources */,
+A0EFB4972CFA2F9300D4A730 /* TeamRowView.swift in Sources */,
+A0EFB4982CFA2F9300D4A730 /* StandingsModels.swift in Sources */,
+A0EFB4992CFA2F9300D4A730 /* TeamBranding.swift in Sources */,
+A0EFB49A2CFA2F9300D4A730 /* StandingsViewModel.swift in Sources */,
+A0EFB49B2CFA2F9300D4A730 /* StandingsService.swift in Sources */,
+A0EFB49C2CFA2F9300D4A730 /* Color+Extensions.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+A0EFB4692CFA2F9300D4A730 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_ENABLE_OBJC_WEAK = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = dwarf;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+ENABLE_TESTABILITY = YES;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+MTL_FAST_MATH = YES;
+ONLY_ACTIVE_ARCH = YES;
+SDKROOT = iphoneos;
+};
+name = Debug;
+};
+A0EFB46A2CFA2F9300D4A730 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_ENABLE_OBJC_WEAK = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ENABLE_NS_ASSERTIONS = NO;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+MTL_ENABLE_DEBUG_INFO = NO;
+MTL_FAST_MATH = YES;
+SDKROOT = iphoneos;
+VALIDATE_PRODUCT = YES;
+};
+name = Release;
+};
+A0EFB46B2CFA2F9300D4A730 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = "";
+ENABLE_PREVIEWS = YES;
+GENERATE_INFOPLIST_FILE = NO;
+INFOPLIST_FILE = MLBStandings/Resources/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+LD_RUNPATH_SEARCH_PATHS = (
+"$(inherited)",
+"@executable_path/Frameworks",
+);
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.MLBStandings;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Debug;
+};
+A0EFB46C2CFA2F9300D4A730 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = "";
+ENABLE_PREVIEWS = YES;
+GENERATE_INFOPLIST_FILE = NO;
+INFOPLIST_FILE = MLBStandings/Resources/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+LD_RUNPATH_SEARCH_PATHS = (
+"$(inherited)",
+"@executable_path/Frameworks",
+);
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.MLBStandings;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+A0EFB4672CFA2F9300D4A730 /* Build configuration list for PBXProject "MLBStandings" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+A0EFB4692CFA2F9300D4A730 /* Debug */,
+A0EFB46A2CFA2F9300D4A730 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+A0EFB4682CFA2F9300D4A730 /* Build configuration list for PBXNativeTarget "MLBStandings" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+A0EFB46B2CFA2F9300D4A730 /* Debug */,
+A0EFB46C2CFA2F9300D4A730 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+};
+rootObject = A0EFB4602CFA2F9300D4A730 /* Project object */;
+}
