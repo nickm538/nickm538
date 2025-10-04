@@ -47,11 +47,11 @@ final class StandingsViewModel: ObservableObject {
         Calendar.current.component(.year, from: Date())
     }
 
+    static let startSeason: Int = 2018
+
     let availableSeasons: [Int]
 
-    private let service: StandingsService
-
-    init(service: StandingsService = StandingsService(), availableSeasons: [Int] = Array((2018...StandingsViewModel.currentSeason).reversed())) {
+    init(service: StandingsService = StandingsService(), availableSeasons: [Int] = Array((StandingsViewModel.startSeason...StandingsViewModel.currentSeason).reversed())) {
         self.service = service
         self.availableSeasons = availableSeasons
 
