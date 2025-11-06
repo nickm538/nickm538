@@ -29,8 +29,16 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Create Flask app
-app = Flask(__name__)
+# Get the root directory of the project (parent of mamdani_tracker package)
+import pathlib
+ROOT_DIR = pathlib.Path(__file__).parent.parent
+
+# Create Flask app with correct paths
+app = Flask(
+    __name__,
+    template_folder=str(ROOT_DIR / 'templates'),
+    static_folder=str(ROOT_DIR / 'static')
+)
 
 # Configuration from environment with sensible defaults
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-production')
