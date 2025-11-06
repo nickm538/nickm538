@@ -1,0 +1,29 @@
+# Mamdani Tracker - Python Dependencies
+
+# Flask web framework
+Flask==3.0.0
+
+# Flask extensions
+Flask-SocketIO==5.3.5
+Flask-SQLAlchemy==3.1.1
+
+# Socket.IO for real-time updates
+python-socketio==5.10.0
+
+# Async support (optional, threading mode works without additional packages)
+# For better performance in production, consider: gevent==23.9.1
+# eventlet has compatibility issues with Python 3.12+
+
+# Background job scheduler
+APScheduler==3.10.4
+
+# HTTP requests with retry logic
+requests==2.31.0
+
+# HTML parsing
+beautifulsoup4==4.12.2
+
+# Additional dependencies
+lxml==4.9.3
+python-dateutil==2.8.2
+urllib3==2.1.0
