@@ -1,48 +1,96 @@
-# MLBStandings — Interactive MLB Standings for iOS
+# Mamdani Tracker
 
-MLBStandings is a modern SwiftUI application that brings the latest Major League Baseball standings to your iPhone or iPad. The experience blends live data from the MLB Stats API with a refined, glassmorphism-inspired interface that makes digging into division battles, momentum swings, and situational splits feel cinematic and fast.
+A comprehensive web application for tracking and analyzing political promises with real-time updates, intelligent scoring, and robust web scraping.
 
-https://github.com/user-attachments/assets/8c2179c3-f8f4-4d0e-bb67-66c725131ac2
+## Features
 
-## Highlights
+- **Robust Web Scraping**: Scrapes political news from Google News RSS, DuckDuckGo, and Reddit with retry logic and error handling
+- **Intelligent Analysis**: Automatically scores promises based on feasibility, impact, priority, budget requirements, and legislative complexity
+- **Real-time Updates**: Socket.IO integration provides live updates when new promises are discovered
+- **Modern Dashboard**: Bootstrap 5-based responsive UI with dark/light theme toggle
+- **RESTful API**: JSON endpoints for programmatic access to promises
+- **Background Jobs**: APScheduler runs periodic scraping tasks
+- **Production-Ready**: Environment-based configuration, logging, and Docker support
 
-- **Dynamic dashboards** – Explore league and division standings with rich cards, adaptive gradients, and at-a-glance power rankings.
-- **Powerful filtering** – Instantly narrow the board with text search, league toggles, division chips, and advanced sorting (win %, run differential, streaks, last 10, and more).
-- **Team detail deep dives** – Tap any club to surface a richly branded sheet with split records, momentum analysis, and contextual metrics.
-- **Favorites mode** – Star your must-watch teams and bubble them to the top of every list.
-- **Seasons on demand** – Jump between any season from 2018 to the present with one tap. Pull-to-refresh keeps the board current.
+## Setup Instructions
 
-## Project structure
+### Prerequisites
 
+- Python 3.8 or higher
+- pip (Python package manager)
+
+### Quick Start
+
+```bash
+# 1. Create virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the application
+python run.py
+
+# 4. Open browser to http://localhost:5000
 ```
-MLBStandings/
-├─ MLBStandings.xcodeproj        // Xcode project for the SwiftUI app
-├─ MLBStandingsApp.swift         // Entry point that wires the shared view model
-├─ Models/                       // Decodable API models + domain transformations
-├─ ViewModels/                   // `StandingsViewModel` with filtering/sorting logic
-├─ Services/                     // `StandingsService` (Stats API client)
-├─ Views/                        // Dashboard, sections, detail sheet, reusable UI
-├─ Utilities/                    // Color helpers and styling utilities
-└─ Resources/                    // Assets catalog & Info.plist
+
+## Testing from iPhone
+
+### Same Wi-Fi Network
+
+1. Find your computer's IP address:
+   - macOS: `ipconfig getifaddr en0`
+   - Linux: `hostname -I | awk '{print $1}'`
+   - Windows: `ipconfig` (look for IPv4 Address)
+
+2. Run the app: `python run.py`
+
+3. On iPhone, go to: `http://YOUR_IP:5000`
+
+### Using ngrok (External Access)
+
+```bash
+# Install ngrok from ngrok.com
+ngrok http 5000
+
+# Use the provided https URL on your iPhone
 ```
 
-### Technology choices
-- **SwiftUI (iOS 16+)** for a declarative UI, custom gradients, and modern animations.
-- **Async/await URLSession** to stream standings from the public MLB Stats API.
-- **ObservableObject architecture** with a single `StandingsViewModel` that powers the dashboard, filters, and detail sheet.
-- **Brand-driven design** using custom palettes for each MLB franchise and glassmorphism cards to keep focus on data.
+## Configuration
 
-## Getting started
+Set environment variables:
 
-1. Open `MLBStandings/MLBStandings.xcodeproj` in Xcode 15 or later.
-2. Select the `MLBStandings` scheme and target an iOS 16+ simulator or device.
-3. Build & run (⌘+R). The app fetches live data on launch and supports pull-to-refresh.
+```bash
+export SECRET_KEY="your-secret-key"
+export SQLALCHEMY_DATABASE_URI="sqlite:///mamdani_tracker.db"
+```
 
-> The build has no third-party dependencies and uses the default `com.example.MLBStandings` bundle identifier—swap it for your team ID before signing to a device.
+**For production, use PostgreSQL instead of SQLite:**
 
-## Roadmap ideas
-- Live tiles for league leaders (HR, OPS, ERA) alongside the standings board.
-- Notification hooks when a favorite club changes playoff positioning.
-- WidgetKit support for lock-screen & home screen tiles.
+```bash
+export SQLALCHEMY_DATABASE_URI="postgresql://user:pass@host/db"
+```
 
-Enjoy tracking the pennant race! ⚾️
+## API Endpoints
+
+- `GET /api/promises` - Get all promises
+- `GET /api/promises/<id>` - Get single promise
+- `POST /api/scrape/now` - Trigger manual scrape
+
+## Running Tests
+
+```bash
+python -m unittest discover tests -v
+```
+
+## Docker
+
+```bash
+docker build -t mamdani-tracker .
+docker run -p 5000:5000 mamdani-tracker
+```
+
+## License
+
+Educational project - respect website terms of service when scraping.
