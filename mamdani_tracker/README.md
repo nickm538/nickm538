@@ -2,8 +2,6 @@
 
 A modern, real-time web application that tracks NYC Mayor-Elect Zohran Mamdani's campaign promises and analyzes their likelihood of being enacted using AI-powered analysis.
 
-![Dashboard Preview](https://via.placeholder.com/800x400/0a0e1a/00ffff?text=Mamdani+Promise+Tracker)
-
 ## ✨ Features
 
 ### 🎯 Core Functionality
