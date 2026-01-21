@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fact Check Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Fact Check Results for: {{ url }}</h1>
+    {% if claims %}
+        <ul>
+            {% for claim in claims %}
+                <li>
+                    <strong>Claim:</strong> {{ claim.text }}<br>
+                    <strong>Claimant:</strong> {{ claim.claimant }}<br>
+                    <strong>Rating:</strong> {{ claim.claimReview[0].textualRating }}<br>
+                    <a href="{{ claim.claimReview[0].url }}" target="_blank">Read more</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No fact-check claims found for this URL.</p>
+    {% endif %}
+    <a href="/">Check another URL</a>
+</body>
+</html>
