@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 1em;
+}
+
+input[type="url"] {
+    width: 300px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #007bff;
+}
